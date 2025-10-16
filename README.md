@@ -8,17 +8,17 @@ Recreate a simple one-page bio from the provided screenshot mockup using HTML + 
 
 ### Provided
 
-- Unsolved/mockups/bio-wireframe.png (screenshot to emulate)
-- Starter files in Unsolved/ with empty CSS shell and basic HTML structure
+- `Unsolved/mockups/bio-wireframe.png` (screenshot to emulate)
+- Starter files in `Unsolved/` with empty CSS shell and basic HTML structure
 
 ### Tasks
 
-- Open Unsolved/index.html and css/styles.css.
+- Open `Unsolved/index.html` and `css/styles.css`.
 - Structure the page to match the screenshot sections:
 - Header with your name and role (e.g., "Student • Web Beginner").
 - A left column with a photo and quick info (email or links as plain text).
 - A right column with sections: About, Skills (simple list), and Links.
-- Use plain selectors only (\*, h1, .class, #id). No pseudo-classes yet.
+- Use plain selectors only (`*`, `h1`, `.class`, `#id`). No pseudo-classes yet.
 - Layout with widths, margins, and display (avoid flex/grid this week).
 - Keep colors/typography simple but readable.
 
@@ -26,7 +26,7 @@ Recreate a simple one-page bio from the provided screenshot mockup using HTML + 
 
 - Header, left, and right sections are present in the correct order.
 - Typography sizes are sensible (h1 bigger than section headings, etc.).
-- A local image assets/profile.jpg is displayed.
+- A local image `assets/profile.jpg` is displayed.
 - The overall look is recognizably similar to the screenshot.
 - No advanced selectors or layout systems used.
 
