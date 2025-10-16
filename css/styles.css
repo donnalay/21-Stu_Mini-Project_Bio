@@ -7,8 +7,8 @@ body {
 }
 #site-header {
   padding: 32px 24px;
-  background: #eef2ff;
-  border-bottom: 1px solid #e2e8f0;
+  background: #f2ffc1;
+  border-bottom: 1px solid #91bdf8;
 }
 #site-header h1 {
   margin: 0 0 4px 0;
@@ -73,6 +73,13 @@ body {
   color: #334155;
 }
 
+.circle-avatar {
+  border-radius: 100%;
+  width: 88px;
+  height: 88px;
+  border: 4px solid #f2ffc1;
+}
+
 /* Typography */
 h1 {
   font-size: 32px;
@@ -93,8 +100,9 @@ li {
 #site-footer {
   text-align: center;
   padding: 20px;
-  border-top: 1px solid #e5e7eb;
+  border-top: 1px solid #91bdf8;
   color: #64748b;
   margin-top: 32px;
   max-height: 64px;
+  background: #f2ffc1;
 }
