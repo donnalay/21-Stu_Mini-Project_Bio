@@ -1,7 +1,7 @@
 /* Base */
 body {
   font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
+  margin: 0 auto;
   color: #0f172a;
   background: #ffffff;
 }
@@ -28,7 +28,7 @@ body {
 /* Two-column layout via inline-block */
 #left {
   display: inline-block;
-  width: 28%;
+  min-width: 28%;
   vertical-align: top;
 }
 
@@ -61,6 +61,7 @@ body {
   background: #ffffff;
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03);
   border-radius: 8px;
+  text-wrap: wrap;
 }
 .card h2 {
   margin: 0 0 8px 0;
